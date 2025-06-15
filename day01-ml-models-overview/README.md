@@ -2,7 +2,7 @@
 
 Welcome to the **Popular Machine Learning Models** visual reference! This repository provides a quick, intuitive overview of widely used machine learning algorithms and techniques across various categories.
 
-![Popular Machine Learning Models](popular-ml-models-cheatsheet.png)
+![Popular Machine Learning Models](popular-ml-models-cheatsheet.jpg)
 
 ---
 
