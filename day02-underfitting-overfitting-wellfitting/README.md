@@ -30,7 +30,7 @@ Today, we’ll break down three fundamental model behaviors:
 - Train for more epochs
 
 📊 **Visual:**  
-![Underfitting](underfitting.png)
+![Underfitting](underfitting.jng)
 
 ---
 
