@@ -27,7 +27,7 @@ The total error in a machine learning model =
 | Example          | Linear model on non-linear data     | Deep neural network on small dataset |
 
 📊 **Visual:**  
-![Bias vs Variance Table](bias_vs_variance_table.png)
+![Bias vs Variance Table](Bias_Variance_Tradeoff_easy_ex.png)
 
 ---
 
@@ -37,7 +37,7 @@ The total error in a machine learning model =
 > The goal is to find the **sweet spot** that minimizes total error."
 
 📈 **Visual Intuition:**  
-![Bias-Variance Tradeoff](bias_variance_tradeoff.png)
+![Bias-Variance Tradeoff](Bias_Variance_Tradeoff.png)
 
 ---
 
@@ -50,7 +50,7 @@ The total error in a machine learning model =
 - Optimal: Arrows are tightly grouped near the center
 
 📷 Illustration:  
-![Bias-Variance Analogy](bias_variance_illustration.png)
+![Bias-Variance Analogy](Bias_Variance_Tradeoff_Cheatsheet.jpg)
 
 ---
 
