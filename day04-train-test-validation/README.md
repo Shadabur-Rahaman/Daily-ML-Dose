@@ -14,7 +14,7 @@ day04-train-test-validation/
 ├── model-validation-techniques.png # Comparison of validation methods
 ├── why_to_split_dataset.png # Intuition behind splitting datasets
 └── train_test_code_example.py # Python script demonstrating all techniques
-
+```
 ---
 
 ## 🎯 Why This Matters
