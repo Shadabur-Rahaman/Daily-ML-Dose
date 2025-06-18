@@ -2,66 +2,83 @@
 
 Welcome to **Day 4** of #DailyMLDose!
 
-Today’s focus: **How to properly evaluate your machine learning model** using **train-test split** and **validation strategies**.
+Today’s focus is on how to properly evaluate your machine learning models using **train-test splits** and different **validation strategies**.
 
 ---
 
-## 🎯 Why It Matters
+## 📁 Folder Structure
 
-Evaluating on the same data you train on gives *overly optimistic results* — and risks overfitting.  
-To truly measure generalization, we use:
-
-- **Train/Test Split**
-- **Hold-Out Validation**
-- **K-Fold Cross-Validation**
-- **Stratified Splits** (for imbalanced data)
+day04-train-test-validation/
+├── README.md
+├── train_test_split_visual.jpg # Visualizing train-test split
+├── model-validation-techniques.png # Comparison of validation methods
+├── why_to_split_dataset.png # Intuition behind splitting datasets
+└── train_test_code_example.py # Python script demonstrating all techniques
 
 ---
 
-## 🔍 Train-Test Split Basics
+## 🎯 Why This Matters
 
-```python
-from sklearn.model_selection import train_test_split
+Evaluating models on the same data they were trained on can lead to **overfitting** and **overconfident accuracy**.
 
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
-)
+To measure real-world performance, we use:
+- ✅ **Train-Test Split**
+- 🔄 **K-Fold Cross-Validation**
+- ⚖️ **Stratified K-Fold** (for imbalanced datasets)
+- 🔬 **Hold-Out Validation**  
+- 🧪 **Leave-One-Out (LOO)** for tiny datasets
+
+---
+
+## 🖼️ Visual References
+
+- ![Train-Test Split](train_test_split_visual.jpg)
+- ![Why Split the Dataset](why_to_split_dataset.png)
+- ![Validation Techniques Overview](model-validation-techniques.png)
+
+---
+
+## 🧑‍💻 How to Run the Code
+
+### 🔧 Requirements
+Make sure you have the following Python libraries installed:
+```bash
+pip install scikit-learn numpy
 ```
-test_size=0.2: 80% training, 20% testing
 
-random_state: for reproducibility
+🚀 Run the Script
+```
+python train_test_code_example.py
+```
 
-📊 Visual:
+This script will:
 
-🧪 Validation Techniques Overview
-Strategy	Description	Best For
-Hold-Out	Single train/val/test split	Simple/large datasets
-K-Fold	Divide into k parts, rotate folds	Small to medium datasets
-Stratified K-Fold	Ensures class distribution remains balanced	Imbalanced classification tasks
-Leave-One-Out (LOO)	Each sample used once as a test set	Tiny datasets, high variance
 
-📊 Summary Table:
+Load the Iris dataset
+
+Run a basic train-test split
+
+Perform K-Fold and Stratified K-Fold cross-validation
+
+Print accuracy metrics for each strategy
 
 🧠 Real-World Analogy
-Think of validation like rehearsing before a final performance — you need test runs (validation sets) to gauge performance before facing the real audience (test set).
+Think of validation like rehearsals before a live performance.
+Your final test set is the real audience — you don’t rehearse in front of them.
 
 🔑 Best Practices
-Always keep a final test set untouched until the very end
+Always reserve a final test set for final evaluation
 
-Use cross-validation during model selection & hyperparameter tuning
+Use cross-validation during model selection and hyperparameter tuning
 
-For classification, stratify splits to maintain label balance
+Use stratified splits for classification tasks with imbalanced classes
 
-🔁 Previous Posts
+🔁 Previous Days
 Day 3 → Bias-Variance Tradeoff
 
-Day 2 → Underfitting vs Overfitting vs Well-Fitting
+Day 2 → Underfitting vs Overfitting
 
-🖼️ Credits & Resources
-Inspired by Scikit-learn Docs
+🖇️ Credits & References
+Inspired by Scikit-learn Documentation
 
-Visual references: @machinelearnflx and @sebastianraschka
-
-📌 Follow on LinkedIn
-⭐ Star the repo for daily ML knowledge drops
-
+Visuals by @machinelearnflx & @sebastianraschka
