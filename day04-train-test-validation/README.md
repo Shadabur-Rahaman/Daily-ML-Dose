@@ -7,7 +7,7 @@ Today’s focus is on how to properly evaluate your machine learning models usin
 ---
 
 ## 📁 Folder Structure
-
+```
 day04-train-test-validation/
 ├── README.md
 ├── train_test_split_visual.jpg # Visualizing train-test split
