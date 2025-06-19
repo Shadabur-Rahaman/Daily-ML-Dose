@@ -18,11 +18,11 @@ DailyMLDose/
 
 ### ✅ Accuracy
 The ratio of correctly predicted observations to the total observations.
-
+```
 \[
 \text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
 \]
-
+```
 ![Accuracy](Accuracy.jpg)
 
 ### 🎯 Precision
