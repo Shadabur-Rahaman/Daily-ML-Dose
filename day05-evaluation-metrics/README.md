@@ -1,4 +1,4 @@
-# 📊 Day 5 – Evaluation Metrics: Accuracy, Precision, Recall, F1
+# 📊 Day 5 – Evaluation Metrics: Accuracy, Precision, Recall, F1, Specificity
 
 Welcome to **Day 5** of #DailyMLDose!
 
@@ -27,28 +27,38 @@ The ratio of correctly predicted observations to the total observations.
 
 ### 🎯 Precision
 How many of the predicted positives are actually positive?
-
+```
 \[
 \text{Precision} = \frac{TP}{TP + FP}
 \]
+```
 ![Precision](precision.png)
 
 ### ♻️ Recall (Sensitivity)
 How many actual positives were correctly predicted?
-
+```
 \[
 \text{Recall} = \frac{TP}{TP + FN}
 \]
-
+```
 ![Recall](recall.png)
 
+### 🛡️ Specificity (True Negative Rate)
+How many actual negatives were correctly predicted?
+```
+\[
+\text{Specificity} = \frac{TN}{TN + FP}
+\]
+```
+![Specificity](specificity.png)
 ### ⚖️ F1-Score
 Harmonic mean of Precision and Recall. Good when you need a balance.
-
+```
 \[
 \text{F1} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
 \]
-
+```
+![Specificity](f1_score.png)
 ---
 ![Accuracy, Precision, Recall, F1-Score](./Accuracy_Precision_Recall_f1.jpg)
 ---
@@ -90,15 +100,27 @@ A great way to visualize performance across all metrics:
 ## 🔗 Code Snippet (sklearn)
 
 ```python
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from sklearn.metrics import (
+    accuracy_score,
+    precision_score,
+    recall_score,
+    f1_score,
+    confusion_matrix
+)
 
 y_true = [1, 0, 1, 1, 0, 1, 0]
 y_pred = [1, 0, 1, 0, 0, 1, 1]
 
+# Basic metrics
 print("Accuracy:", accuracy_score(y_true, y_pred))
 print("Precision:", precision_score(y_true, y_pred))
-print("Recall:", recall_score(y_true, y_pred))
+print("Recall (Sensitivity):", recall_score(y_true, y_pred))
 print("F1 Score:", f1_score(y_true, y_pred))
+
+# Specificity from confusion matrix
+tn, fp, fn, tp = confusion_matrix(y_true, y_pred).ravel()
+specificity = tn / (tn + fp)
+print("Specificity:", specificity)
 
 ```
 📎 Visual Aids
