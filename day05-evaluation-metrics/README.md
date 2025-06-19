@@ -12,7 +12,9 @@ DailyMLDose/
 └── day05-evaluation-metrics/
     ├── README.md
     ├── confusion_matrix.png
-    └── metrics_formula.png
+    ├── metrics_formula.png
+    └── demo/
+        └── day05_metrics_demo.py
 ```
 ## 📌 Key Metrics in Classification
 
@@ -32,7 +34,7 @@ How many of the predicted positives are actually positive?
 \text{Precision} = \frac{TP}{TP + FP}
 \]
 ```
-![Precision](precision.png)
+![Precision](precision.jpg)
 
 ### ♻️ Recall (Sensitivity)
 How many actual positives were correctly predicted?
@@ -41,7 +43,7 @@ How many actual positives were correctly predicted?
 \text{Recall} = \frac{TP}{TP + FN}
 \]
 ```
-![Recall](recall.png)
+![Recall](recall.jpg)
 
 ### 🛡️ Specificity (True Negative Rate)
 How many actual negatives were correctly predicted?
@@ -50,7 +52,7 @@ How many actual negatives were correctly predicted?
 \text{Specificity} = \frac{TN}{TN + FP}
 \]
 ```
-![Specificity](specificity.png)
+![Specificity](specificity.jpg)
 ### ⚖️ F1-Score
 Harmonic mean of Precision and Recall. Good when you need a balance.
 ```
@@ -60,6 +62,7 @@ Harmonic mean of Precision and Recall. Good when you need a balance.
 ```
 ![Specificity](f1_score.png)
 ---
+### Recall ✅ Accuracy 🎯 Precision ♻️ Recall (Sensitivity) ⚖️ F1-Score
 ![Accuracy, Precision, Recall, F1-Score](./Accuracy_Precision_Recall_f1.jpg)
 ---
 
