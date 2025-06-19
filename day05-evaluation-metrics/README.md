@@ -23,12 +23,15 @@ The ratio of correctly predicted observations to the total observations.
 \text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
 \]
 
+![Accuracy](Accuracy.jpg)
+
 ### 🎯 Precision
 How many of the predicted positives are actually positive?
 
 \[
 \text{Precision} = \frac{TP}{TP + FP}
 \]
+![Precision](precision.png)
 
 ### ♻️ Recall (Sensitivity)
 How many actual positives were correctly predicted?
@@ -36,6 +39,8 @@ How many actual positives were correctly predicted?
 \[
 \text{Recall} = \frac{TP}{TP + FN}
 \]
+
+![Recall](recall.png)
 
 ### ⚖️ F1-Score
 Harmonic mean of Precision and Recall. Good when you need a balance.
@@ -45,12 +50,14 @@ Harmonic mean of Precision and Recall. Good when you need a balance.
 \]
 
 ---
+![Accuracy, Precision, Recall, F1-Score](./Accuracy_Precision_Recall_f1.jpg)
+---
 
 ## 📊 Confusion Matrix
 
 A great way to visualize performance across all metrics:
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](Confusion_matrix.jpg)
 
 |               | Predicted Positive | Predicted Negative |
 |---------------|--------------------|--------------------|
