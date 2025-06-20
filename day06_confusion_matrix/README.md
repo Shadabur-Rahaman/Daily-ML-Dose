@@ -5,6 +5,18 @@ Welcome to **Day 6** of #DailyMLDose!
 Today we dive into a **Confusion Matrix** — a fundamental evaluation tool for classification problems.
 
 ---
+## 🗂️ Folder Structure – day06-confusion-matrix/
+```
+
+day06-confusion-matrix/
+├── README.md
+├── Demo
+|     └── confusion_matrix.png        # Visual explanation
+├── confusion_matrix_example.py       # Python code
+└── confusion_matrix_values.png       # Labeled table version
+
+```
+---
 
 ## 📌 What Is a Confusion Matrix?
 
