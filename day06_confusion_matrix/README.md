@@ -15,7 +15,7 @@ day06-confusion-matrix/
 ├── confusion_matrix.jpeg                              # Visual explanation
 ├── confusion_matrix_example_spam_detection.png        # Spam detection confusion matrix
 ├── confusion_matrix_with_code_snippet.jpeg            # Code Snippet with matrix
-└── confusion_matrix_values.png                        # Labeled table version
+└── confusion_matrix_values.jpeg                        # Labeled table version
 
 ```
 ---
@@ -43,7 +43,7 @@ It’s a 2x2 table (for binary classification) showing:
 ---
 ---
 
-![Confusion Matrix Values](confusion_matrix_values.png) 
+![Confusion Matrix Values](confusion_matrix_values.jpeg) 
 
 ---
 ## 🧠 Why Is It Useful?
