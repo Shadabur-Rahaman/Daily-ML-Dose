@@ -1,92 +1,109 @@
-# 🎯 Day 7 – Precision vs Recall Tradeoff in Machine Learning
+# 📈 Day 7 – ROC vs Precision-Recall (PR) Curves in ML
 
 Welcome to **Day 7** of #DailyMLDose!
 
-Today we dive into the important tradeoff between **Precision** and **Recall** — two powerful metrics often at odds in classification problems.
+Today, we compare two of the most important evaluation tools for classifiers:  
+**ROC Curve** and **Precision-Recall (PR) Curve**.
 
 ---
 
-## 📌 Definitions
+## 🚦 What They Are
 
-- **Precision** = TP / (TP + FP)  
-  → Of all predicted positives, how many are correct?
+### ✅ ROC Curve (Receiver Operating Characteristic)
+- Plots **True Positive Rate (Recall)** vs **False Positive Rate**
+- X-axis: FPR = FP / (FP + TN)  
+- Y-axis: TPR = TP / (TP + FN)
 
-- **Recall** = TP / (TP + FN)  
-  → Of all actual positives, how many were caught?
+### 🎯 Precision-Recall Curve
+- Plots **Precision** vs **Recall**
+- Useful when **positive class is rare** (imbalanced datasets)
 
 ---
-### 🗂️ Folder Structure – 
+🗂️ Folder Structure – day07-roc-vs-pr-curves/
 ```
-day07-precision-vs-recall/
+day07-roc-vs-pr-curves/
 ├── README.md
-├── precision_vs_recall_curve.py        # Python demo script
-├── precision_recall_curve.png          # Matplotlib/seaborn visual
-└── precision_vs_recall_tradeoff.png    # Concept illustration
+├── roc_vs_pr_curves.py             # Python script
+├── roc_curve_plot.png              # ROC curve visual
+├── pr_curve_plot.png               # PR curve visual
+└── roc_vs_pr_diff.png              # Summary comparison graphic
 ---
-## 🎯 The Tradeoff
-
-Improving one often hurts the other:
-- Increasing **Recall** may lower **Precision** (more false positives)
-- Increasing **Precision** may lower **Recall** (more false negatives)
-
-📊 You often tune thresholds (e.g., model.predict_proba > 0.7) to balance them.
-
----
-
-## 🔍 When to Prioritize
-
-| Scenario                                | Focus On    |
-|-----------------------------------------|-------------|
-| Fraud Detection                         | Recall      |
-| Spam Detection                          | Precision   |
-| Medical Diagnosis (e.g., cancer)        | Recall      |
-| Search Engines (relevant results)       | Precision   |
-
+```
+## ⚖️ ROC vs PR – Key Differences
+```
+| Feature                     | ROC Curve                  | PR Curve                        |
+|----------------------------|----------------------------|---------------------------------|
+| Focus                      | TPR vs FPR                 | Precision vs Recall             |
+| Good for                   | Balanced datasets          | Imbalanced datasets             |
+| Area Under Curve           | AUC-ROC                    | AUC-PR                          |
+| More sensitive to          | TN values (FPR)            | FP/TP imbalance                 |
+```
 ---
 
-## 🧪 Python Code – Precision-Recall Curve
+## 🧪 Python Demo
 
 ```python
 from sklearn.datasets import make_classification
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import precision_recall_curve, auc
+from sklearn.metrics import roc_curve, precision_recall_curve, auc
 import matplotlib.pyplot as plt
 
-X, y = make_classification(n_samples=1000, weights=[0.85, 0.15], random_state=42)
+# Create imbalanced dataset
+X, y = make_classification(n_samples=1000, weights=[0.9, 0.1], random_state=42)
+
+# Train model
 model = LogisticRegression()
 model.fit(X, y)
-
 y_scores = model.predict_proba(X)[:, 1]
-precision, recall, thresholds = precision_recall_curve(y, y_scores)
+
+# ROC
+fpr, tpr, _ = roc_curve(y, y_scores)
+roc_auc = auc(fpr, tpr)
+
+# PR
+precision, recall, _ = precision_recall_curve(y, y_scores)
 pr_auc = auc(recall, precision)
 
-plt.plot(recall, precision, label=f'PR AUC = {pr_auc:.2f}')
-plt.xlabel('Recall')
-plt.ylabel('Precision')
-plt.title('Precision-Recall Curve')
+# Plot both
+plt.figure(figsize=(12, 5))
+
+plt.subplot(1, 2, 1)
+plt.plot(fpr, tpr, label=f"AUC-ROC = {roc_auc:.2f}")
+plt.plot([0, 1], [0, 1], 'k--')
+plt.xlabel("False Positive Rate")
+plt.ylabel("True Positive Rate")
+plt.title("ROC Curve")
 plt.legend()
-plt.grid(True)
+
+plt.subplot(1, 2, 2)
+plt.plot(recall, precision, label=f"AUC-PR = {pr_auc:.2f}")
+plt.xlabel("Recall")
+plt.ylabel("Precision")
+plt.title("Precision-Recall Curve")
+plt.legend()
+
+plt.tight_layout()
 plt.show()
 ```
-🖼️ Output:
+📊 Visual Summary
+ROC Curve: Better for balanced datasets 
 
-📎 Visual Concept
+PR Curve: More informative for imbalanced data (rare positive class)
 
-A high threshold = High Precision, Low Recall
+📉 Example:
+In fraud detection or disease diagnosis, where positives are rare, PR curves are preferred.
 
-A low threshold = High Recall, Low Precision
-
-🧠 Summary
-Use Precision when false positives are costly
-
-Use Recall when false negatives are dangerous
-
-Use F1-Score when you need a balanced approach
-
-🔁 Previous:
+🔁 Previous Post:
 Day 6 → Confusion Matrix
 
-🔔 Stay Updated
+🧠 Visual & Code Credits:
+ROC vs PR intuition: @alec_helbling
+
+ROC vs PR comparison chart: @chrisalbon
+
+Curve demo via scikit-learn
+
+📌 Follow Shadabur Rahaman
 
 ⭐ Star the GitHub repo
 
