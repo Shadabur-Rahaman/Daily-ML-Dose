@@ -86,7 +86,7 @@ plt.tight_layout()
 plt.show()
 ```
 📊 Visual Summary
-ROC Curve: Better for balanced datasets 
+ROC Curve: Better for balanced datasets  (./ROC_curve.png)
 
 PR Curve: More informative for imbalanced data (rare positive class)
 
