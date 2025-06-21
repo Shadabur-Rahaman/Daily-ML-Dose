@@ -23,10 +23,12 @@ Today, we compare two of the most important evaluation tools for classifiers:
 ```
 day07-roc-vs-pr-curves/
 ├── README.md
-├── roc_vs_pr_curves.py             # Python script
-├── roc_curve_plot.png              # ROC curve visual
-├── pr_curve_plot.png               # PR curve visual
-└── roc_vs_pr_diff.png              # Summary comparison graphic
+├── roc_vs_pr_curves.py     # Python script
+├── PR_VS_ROC.png           # Summary comparison graphic
+├── PR_visual.png           # PR curve visual
+├── PR_curve.jpeg           # PR curve 
+├── visual_roc.jpeg         # ROC curve visual
+└── ROC_curve.png           # ROC curve 
 ---
 ```
 ## ⚖️ ROC vs PR – Key Differences
