@@ -86,10 +86,24 @@ plt.tight_layout()
 plt.show()
 ```
 📊 Visual Summary
-ROC Curve: Better for balanced datasets  (./ROC_curve.png)
+ROC Curve: Better for balanced datasets  
+![ROC Curve](./ROC_curve.png)
 
+---
+![ROC Visual Curve](./visual_roc.jpeg)
+
+---
 PR Curve: More informative for imbalanced data (rare positive class)
+---
+![PR Curve](./PR_curve.jpeg)
 
+---
+![PR Visual Curve](./PR_visual.png)
+
+---
+![PR Curve VS ROC CURVE](./PR_VS_ROC.png)  
+
+--
 📉 Example:
 In fraud detection or disease diagnosis, where positives are rare, PR curves are preferred.
 
