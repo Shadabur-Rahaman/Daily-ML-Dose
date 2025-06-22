@@ -90,7 +90,7 @@ plt.show()
 ```
 📊 Visual Summary
 ROC Curve: Better for balanced datasets  
-![ROC Curve](./ROC_curve.png)
+![ROC Curve](./ROC_curve.jpeg)
 
 ---
 ![ROC Visual Curve](./visual_roc.jpeg)
