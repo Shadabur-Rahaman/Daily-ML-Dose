@@ -5,7 +5,26 @@ Welcome to **Day 8** of #DailyMLDose!
 Today, we're exploring **Cross Validation**, a powerful technique to improve model generalization and reduce overfitting.
 
 ---
-
+🗂️ Folder Structure – day08-cross-validation/
+```
+day08-cross-validation/
+├── README.md
+|   └──Demo
+|      └──  kfold_vs_stratifiedkfold.py                 # Python script
+│
+├── cross_validation_code_snippet.png           # Code-only view
+├── cross_validation_diagram.jpeg               # General CV visual
+├── cross_validation_summary.jpeg               # Comparison table/summary visual
+│
+├── kfold_code_snippet.png                      # K-Fold code visual
+├── kfold_diagram.webp                          # K-Fold process image
+│
+├── stratifiedkfold_code_snippet.png            # Stratified code visual
+├── stratified_diagram.png                      # Stratified splitting visual
+│
+├── kfold_vs_stratifiedkfold_diagram.jpeg       # Side-by-side comparison visual
+```
+---
 ## 📌 What is Cross Validation?
 
 Cross-validation is a resampling method used to:
