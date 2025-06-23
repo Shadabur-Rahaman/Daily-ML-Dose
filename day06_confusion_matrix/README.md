@@ -9,13 +9,13 @@ Today we dive into a **Confusion Matrix** — a fundamental evaluation tool for 
 ```
 
 day06-confusion-matrix/
-├── README.md
 ├── Demo
 |     └── confusion_matrix_example.py                  # Python code 
 ├── confusion_matrix.jpeg                              # Visual explanation
 ├── confusion_matrix_example_spam_detection.png        # Spam detection confusion matrix
 ├── confusion_matrix_with_code_snippet.jpeg            # Code Snippet with matrix
-└── confusion_matrix_values.jpeg                        # Labeled table version
+├──  confusion_matrix_values.jpeg                        # Labeled table version
+└── README.md
 
 ```
 ---
