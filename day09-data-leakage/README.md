@@ -87,7 +87,7 @@ Target Leakage	Label-related features	“Delivered” in training for delivery p
 Test Contamination	Preprocessing before split	Scaling entire dataset before split	Fit transforms only on training data
 
 🔁 Previous:
-[Day 8 → Cross Validation: K-Fold vs Stratified](./day08-cross-validation)
+[Day 8 → Cross Validation: K-Fold vs Stratified](day08-cross-validation)
 
 🎨 Visual Credits:
 Venn + Concept: @ml_diagrams
