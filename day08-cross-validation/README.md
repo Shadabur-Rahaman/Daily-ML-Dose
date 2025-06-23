@@ -10,7 +10,6 @@ Today, we're exploring **Cross Validation**, a powerful technique to improve mod
 day08-cross-validation/
 |   └──Demo
 |      └──  kfold_vs_stratifiedkfold.py                 # Python script
-├── README.md
 │
 ├── cross_validation_code_snippet.png           # Code-only view
 ├── cross_validation_diagram.jpeg               # General CV visual
@@ -23,6 +22,7 @@ day08-cross-validation/
 ├── stratified_diagram.png                      # Stratified splitting visual
 │
 ├── kfold_vs_stratifiedkfold_diagram.jpeg       # Side-by-side comparison visual
+├── README.md
 ```
 ---
 ## 📌 What is Cross Validation?
