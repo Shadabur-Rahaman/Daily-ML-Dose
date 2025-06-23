@@ -14,7 +14,6 @@ Data leakage occurs when **information from outside the training dataset** is us
 📂 Folder Structure – day09-data-leakage/
 ```
 day09-data-leakage/
-├── README.md
 |   └──Demo
 |      └──  data_leakage_demo.py    # Python script
 │
@@ -22,6 +21,7 @@ day09-data-leakage/
 ├── data_leakage_architecture.svg         # Wrong pipeline: scaling before split
 ├── data_leakage_diagram.svg              # Flow overview
 ├── data_leakage_visuals.jpg              # Summary/explainer diagram
+├── README.md
 ```
 ---
 ## 🔍 Common Types of Leakage
