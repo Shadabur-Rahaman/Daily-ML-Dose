@@ -21,7 +21,7 @@ day09-data-leakage/
 ├── data_leakage_architecture.svg         # Wrong pipeline: scaling before split
 ├── data_leakage_diagram.svg              # Flow overview
 ├── data_leakage_visuals.jpg              # Summary/explainer diagram
-├── README.md
+└── README.md
 ```
 ---
 ## 🔍 Common Types of Leakage
