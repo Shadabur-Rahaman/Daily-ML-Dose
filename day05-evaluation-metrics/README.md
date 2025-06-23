@@ -5,16 +5,15 @@ Welcome to **Day 5** of #DailyMLDose!
 Today’s concept is **Evaluation Metrics** — essential tools to judge how well your machine learning model performs.
 
 ---
-## Folder Structure
+## 🗂️ Folder Structure – day05-evaluation-metrics/
 ```
-
-DailyMLDose/
-└── day05-evaluation-metrics/
-    ├── README.md
-    ├── confusion_matrix.png
-    ├── metrics_formula.png
-    └── demo/
-        └── day05_metrics_demo.py
+day05-evaluation-metrics/
+|   └──demo/
+|      └──  roc_vs_pr_curves.py     # Python script
+├── confusion_matrix.png
+├── metrics_formula.png
+└──  README.md
+---
 ```
 ## 📌 Key Metrics in Classification
 
