@@ -22,7 +22,7 @@ day08-cross-validation/
 ├── stratified_diagram.png                      # Stratified splitting visual
 │
 ├── kfold_vs_stratifiedkfold_diagram.jpeg       # Side-by-side comparison visual
-├── README.md
+└──  README.md
 ```
 ---
 ## 📌 What is Cross Validation?
