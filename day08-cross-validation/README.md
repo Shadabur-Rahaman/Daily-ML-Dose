@@ -8,9 +8,9 @@ Today, we're exploring **Cross Validation**, a powerful technique to improve mod
 🗂️ Folder Structure – day08-cross-validation/
 ```
 day08-cross-validation/
-├── README.md
 |   └──Demo
 |      └──  kfold_vs_stratifiedkfold.py                 # Python script
+├── README.md
 │
 ├── cross_validation_code_snippet.png           # Code-only view
 ├── cross_validation_diagram.jpeg               # General CV visual
