@@ -12,6 +12,17 @@ Data leakage occurs when **information from outside the training dataset** is us
 
 ---
 
+day09-data-leakage/
+├── README.md
+|   └──Demo
+|      └──  data_leakage_demo.py    # Python script
+│
+├── data_leakage_reasons.png              # Venn diagram: Target Leakage vs Train/Test Contamination
+├── data_leakage_architecture.svg         # Wrong pipeline: scaling before split
+├── data_leakage_diagram.svg              # Flow overview
+├── data_leakage_visuals.jpg              # Summary/explainer diagram
+
+---
 ## 🔍 Common Types of Leakage
 
 📌 **Target Leakage**:  
