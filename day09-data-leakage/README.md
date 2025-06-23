@@ -11,7 +11,8 @@ Today’s topic is a critical one: **Data Leakage**, a hidden model killer that 
 Data leakage occurs when **information from outside the training dataset** is used to create the model. This causes your model to perform unrealistically well during training but fail in production.
 
 ---
-
+📂 Folder Structure – day09-data-leakage/
+```
 day09-data-leakage/
 ├── README.md
 |   └──Demo
@@ -21,7 +22,7 @@ day09-data-leakage/
 ├── data_leakage_architecture.svg         # Wrong pipeline: scaling before split
 ├── data_leakage_diagram.svg              # Flow overview
 ├── data_leakage_visuals.jpg              # Summary/explainer diagram
-
+```
 ---
 ## 🔍 Common Types of Leakage
 
