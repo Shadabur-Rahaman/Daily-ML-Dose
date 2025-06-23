@@ -97,7 +97,7 @@ Classification Tasks	Prefer Stratified
 Regression Tasks	Use K-Fold
 
 🔁 Previous:
-Day 7 → [ROC vs PR Curves](./day07-precision-vs-recall)
+Day 7 → [ROC vs PR Curves](../day07-precision-vs-recall)
 
 🎨 Visual & Concept Credits:
 K-Fold & Stratified Concept: @chrisalbon
