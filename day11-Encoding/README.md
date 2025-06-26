@@ -27,7 +27,7 @@ Two primary types:
 ## 🧰 Popular Encoding Techniques
 
 ### 1. Label Encoding
-<img src="images/label_encoding.jpg"/>
+<img src="images/label_encoding.jpg" width="1000"/>
 
 ---
 
