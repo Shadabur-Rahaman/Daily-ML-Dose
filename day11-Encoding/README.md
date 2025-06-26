@@ -47,7 +47,7 @@ Two primary types:
 ---
 
 ### 5. Complete Encoding Pipeline (Tree View)
-<img src="images/encodin_techniques.png" width="500"/>
+<img src="images/encoding_techniques.png" width="500"/>
 
 ---
 
