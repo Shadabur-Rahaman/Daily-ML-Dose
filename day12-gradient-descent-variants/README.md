@@ -46,7 +46,8 @@ day12-gradient-descent-variants/
 - Faster but high variance → noisy path.
 
 📸 Visuals:
-![SGD Graph](<img src="images/Stochastic_Gradient_Descent_graph.webp" width="1000"/>)   
+SGD Graph <img src="images/Stochastic_Gradient_Descent_graph.webp" width="1000"/>
+
 ![SGD Visual](images/Stochastic_Gradient_Descent_visual.png (width = 800))
 
 📌 **Mini-Batch Gradient Descent**
