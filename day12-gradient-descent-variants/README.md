@@ -58,8 +58,8 @@ day12-gradient-descent-variants/
 - Handles non-stationary objectives and vanishing gradients.
 
 📸 Visuals:
-![RMSProp 3D](RMSProp_3d_graph.png)  
-![RMSProp Visual](RMSProp_visual.png)
+![RMSProp 3D](images/RMSProp_3d_graph.png)  
+![RMSProp Visual](images/RMSProp_visual.png)
 
 📌 **Adam Optimizer**
 - Combines **Momentum** and **RMSProp**.
@@ -67,15 +67,15 @@ day12-gradient-descent-variants/
 - Default optimizer in many DL frameworks (PyTorch, TensorFlow).
 
 📸 Visuals:
-![Adam](adam-optimization.webp)  
-![Adam Flow](adam-optimization-visual.webp)
+![Adam](images/adam-optimization.webp)  
+![Adam Flow](images/adam-optimization-visual.webp)
 
 ---
 
 ## 🎯 Concept Visualizations
-![Gradient Descent Family](Gradient_Descent_Variants.webp)  
-![Descent Path Visual](Gradient-Descent-visual.png)  
-![Cost Surface](Gradient-Descent-graph.webp)
+![Gradient Descent Family](images/Gradient_Descent_Variants.webp)  
+![Descent Path Visual](images/Gradient-Descent-visual.png)  
+![Cost Surface](images/Gradient-Descent-graph.webp)
 
 ---
 
