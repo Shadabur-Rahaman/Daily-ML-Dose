@@ -47,10 +47,10 @@ day12-gradient-descent-variants/
 
 📸 Visuals:
 SGD Graph 
-<img src="images/Stochastic_Gradient_Descent_graph.webp" width="800"/>
+<img src="images/Stochastic_Gradient_Descent_graph.webp" width="800" height = '800'/>
 
 SGD Visual
-<img src="images/Stochastic_Gradient_Descent_visual.png" width="800"/>
+<img src="images/Stochastic_Gradient_Descent_visual.png" width="800" height = '600'/>
 
 📌 **Mini-Batch Gradient Descent**
 - Updates after small batches (e.g., 32 or 64 samples).
