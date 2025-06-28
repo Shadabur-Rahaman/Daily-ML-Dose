@@ -16,6 +16,8 @@ Regularization combats this by discouraging the model from learning overly compl
 📂 Folder Structure – `day13-regularization/`
 ```
 day13-regularization/
+├── code/
+│ └── regularization_examples.py
 ├── images/
 │ ├── difference_between_L1_&L2&elasticNet.png
 │ ├── elastic-net-regression-visually-equation-explained-1.webp
@@ -25,8 +27,7 @@ day13-regularization/
 │ ├── Regularization_formulas.jpeg
 │ ├── ridge-regression-in-machine-learning.webp
 │ └── vsiuals_between_L1&L2&_elasticNet.png
-├── code/
-│ └── regularization_examples.py
+│
 └── README.md
 ```
 
