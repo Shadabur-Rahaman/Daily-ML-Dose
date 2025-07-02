@@ -17,6 +17,7 @@ There are two key types:
 ---
 
 📂 Folder Structure – `day17-ensemble-learning/`
+```
 day17-ensemble-learning/
 ├── images/
 │ ├── bagging_vs_boosting_table.png
@@ -28,10 +29,7 @@ day17-ensemble-learning/
 ├── code/
 │ └── ensemble_bagging_boosting_demo.py
 └── README.md
-
-yaml
-Copy
-Edit
+```
 
 ---
 
@@ -43,7 +41,7 @@ Edit
 🔹 Example: **Random Forest**
 
 📸  
-![Bagging Workflow](images/bagging_workflow.png)
+![Bagging Workflow](./images/bagging_workflow.png)
 
 ---
 
