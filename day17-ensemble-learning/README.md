@@ -22,7 +22,7 @@ day17-ensemble-learning/
 ├── images/
 │ ├── bagging_vs_boosting_table.png
 │ ├── bagging_vs_boosting_diagram.webp
-│ ├── bagging_workflow.png
+│ ├── baggings_workflow.png
 │ ├── boosting_workflow.png
 │ ├── ensemble_learning_summary_chart.webp
 │ └── decision_tree_boosting_example.png
