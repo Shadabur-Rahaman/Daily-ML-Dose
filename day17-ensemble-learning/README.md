@@ -53,7 +53,7 @@ day17-ensemble-learning/
 🔸 Example: **AdaBoost, XGBoost, Gradient Boosting**
 
 📸  
-![Boosting Workflow](images/boosting_workflow.png)
+![Boosting Workflow](%20images/boosting_workflow.png)
 
 ---
 
@@ -69,9 +69,9 @@ day17-ensemble-learning/
 | Examples          | Random Forest                   | AdaBoost, XGBoost, LightGBM      |
 
 📊  
-![Visual Table](images/bagging_vs_boosting_table.png)  
-![Side-by-Side](images/bagging_vs_boosting_diagram.webp)  
-![Summary Chart](images/ensemble_learning_summary_chart.webp)
+![Visual Table](%20images/bagging_vs_boosting_table.png)  
+![Side-by-Side](%20images/bagging_vs_boosting_diagram.webp)  
+![Summary Chart](%20images/ensemble_learning_summary_chart.webp)
 
 ---
 
