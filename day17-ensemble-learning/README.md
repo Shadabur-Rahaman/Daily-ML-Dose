@@ -41,7 +41,7 @@ day17-ensemble-learning/
 🔹 Example: **Random Forest**
 
 📸  
-![Bagging Workflow](%20images/bagging_workflow.png)
+![Bagging Workflow]()
 
 ---
 
