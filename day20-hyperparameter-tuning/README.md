@@ -101,7 +101,7 @@ print("Best Params from GridSearch:", grid.best_params_)
 ```
 🎲 Random Search (Efficient Sampling)
 
-```
+```python
 from sklearn.model_selection import RandomizedSearchCV
 from scipy.stats import randint
 
