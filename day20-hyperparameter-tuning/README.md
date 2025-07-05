@@ -7,7 +7,7 @@ We'll break down the two most common methods: **Grid Search** and **Random Searc
 
 ---
 📂 Project Folder Structure
-```markdown
+```ini
 day20-hyperparameter-tuning/
 ├── code/
 │   ├── grid_search_demo.py
