@@ -16,7 +16,7 @@ day20-hyperparameter-tuning/
 ├── images/
 │   ├── grid_vs_random_search_diagram.png
 │   ├── grid_search_explained.png
-│   ├── random_search_explained.png
+│   ├── random_search_explained.jpg
 │   └── hyperparameter_tuning_visuals.png
 └── README.md
 ```
@@ -61,7 +61,7 @@ Tuning helps you find the **best combination** to **maximize validation accuracy
 
 ---
 
-![Random Search Explained](images/random_search_explained.png)  
+![Random Search Explained](images/random_search_explained.jpg)  
 🎯 *Random picks from ranges — less computation, still effective.*
 
 ---
