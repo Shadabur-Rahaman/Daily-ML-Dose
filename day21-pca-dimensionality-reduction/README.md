@@ -176,7 +176,7 @@ We applied PCA on the Iris dataset — and boom, it clusters beautifully in 2D!
 ---
 
 📊 See code + visuals + comparison chart here →  
-👉 [GitHub: Day 21 – PCA & Dimensionality Reduction]([https://github.com/YourRepo/day21-pca-dimensionality-reduction](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/edit/main/day21-pca-dimensionality-reduction))
+👉 [GitHub: Day 21 – PCA & Dimensionality Reduction]([https://github.com/Shadabur-Rahaman/Daily-ML-Dose/edit/main/day21-pca-dimensionality-reduction])
 
 ---
 
