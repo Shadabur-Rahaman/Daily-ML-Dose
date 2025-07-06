@@ -16,6 +16,8 @@ day21-pca-dimensionality-reduction/
 │   ├── pca_projection.png
 │   ├── pca_variance_explained.png
 │   ├── mnist_pca_2d.png
+|   ├── pca_in_nutshell.jpg
+|   ├── pca_explained
 └── README.md
 ```
 ---
@@ -52,7 +54,7 @@ PCA transforms original features into **principal components** that capture the 
 
 ### 📉 From High-D to 2D
 
-![pca_projection](images/pca_projection.png)
+![pca_projection](images/pca_projection.jpg)
 
 > PCA reduces 3D or higher-D data into a few **uncorrelated axes**.
 
