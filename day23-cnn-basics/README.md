@@ -112,7 +112,8 @@ day23-cnn-basics/
 │   ├── convlayer_detailedview_demo.gif
 │   ├── convolution_demo.png
 │   └── Schematic-representation-of-the-analogy-between-a-CNN-and-a-biologic-visual-cortical.png
-
+|
+└── README.md
 ```
 🧠 Summary
 Component	Role
