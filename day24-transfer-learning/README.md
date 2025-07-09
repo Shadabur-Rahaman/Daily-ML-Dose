@@ -111,7 +111,7 @@ day24-transfer-learning/
 🏁 Works best with pre-trained CNNs like ResNet, VGG, MobileNet
 
 🔁 Previous Post
-![📌 Day 23 → CNN Basics](./day23-cnn-basics)
+![📌 Day 23 → CNN Basics](../day23-cnn-basics)
 
 
 🙌 Stay Connected
