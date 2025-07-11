@@ -59,7 +59,7 @@ Self-attention allows this level of understanding.
 ---
 
 ### 🎯 Scaled Dot-Product Attention  
-![Dot Product Attention](images/scaled_dot_product_attention.png)
+![Dot Product Attention](images/scaled_dot_product_attention.webp)
 
 ---
 
