@@ -39,7 +39,7 @@ Self-attention allows this level of understanding.
 ## 🖼️ Visuals
 
 ### 🔗 Transformer Paper  
-![Transformer Architecture](images/attention_is_all_you_need_diagram.png)
+![Transformer Architecture](images/attention_is_all_you_need_diagram1.png)
 
 ---
 
