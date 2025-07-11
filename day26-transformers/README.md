@@ -141,7 +141,7 @@ day26-transformers/
 │   ├── self_attention_mechanism_explained.png
 │   ├── transformer_encoder_decoder_structure.png
 │   ├── positional_encoding_visual.png
-│   ├── scaled_dot_product_attention.png
+│   ├── scaled_dot_product_attention.webp
 │   └── multi_head_attention_explained.png
 └── README.md
 ```
