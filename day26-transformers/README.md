@@ -128,7 +128,24 @@ Positional Encode	Token ordering without RNNs
 🔁 Previous Post
 ![📌 Day 25 → NLP Basics (TF-IDF, Word2Vec)](.//day25-nlp-basics)
 
-
+---
+✅ Folder Structure
+```css
+day26-transformers/
+├── code/
+│   ├── self_attention_numpy.py
+│   └── transformer_encoder_skeleton.py
+│
+├── images/
+│   ├── attention_is_all_you_need_diagram.png
+│   ├── self_attention_mechanism_explained.png
+│   ├── transformer_encoder_decoder_structure.png
+│   ├── positional_encoding_visual.png
+│   ├── scaled_dot_product_attention.png
+│   └── multi_head_attention_explained.png
+└── README.md
+```
+---
 🙌 Stay Connected
 - 🔗 [Follow Shadabur Rahaman on LinkedIn](https://www.linkedin.com/in/shadabur-rahaman-1b5703249)
 ⭐ Star the GitHub Repo
