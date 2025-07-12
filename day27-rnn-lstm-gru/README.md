@@ -56,7 +56,7 @@ day27-rnn-lstm-gru/
 - Solves gradient issues
 
 🖼️ Visual:  
-![LSTM Cell](images/lstm_cell_explained.png)
+![LSTM Cell](images/lstm_cell_explained.jpg)
 
 ---
 
@@ -67,7 +67,7 @@ day27-rnn-lstm-gru/
 - Faster, competitive performance
 
 🖼️ Visual:  
-![GRU Cell](images/gru_cell_explained.png)
+![GRU Cell](images/gru_cell_explained.jpg)
 
 ---
 
