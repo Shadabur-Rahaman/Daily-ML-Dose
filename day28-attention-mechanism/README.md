@@ -6,7 +6,25 @@ Today, we spotlight one of the most powerful innovations in deep learning:
 **Attention Mechanisms** — the backbone of modern NLP and Vision models.
 
 ---
+✅ Folder Structure
+```css
 
+day28-attention-mechanism/
+├── code/
+│   ├── basic_attention_numpy.py
+│   └── pytorch_scaled_dot_product_attention.py
+│
+├── images/
+│   ├── attention_mechanism_explained.png.png
+│   ├── scaled_dot_product_attention_formula.png
+│   ├── attention_score_visualization.png
+│   ├── soft_vs_hard_attention.png
+│   ├── attention_flow_diagram.png
+│   ├── attention_vs_selfattention.png
+│   └── attention_in_machine_translation.png
+└── README.md
+```
+---
 ## 🤔 What is Attention?
 
 In human learning, **we don’t read every word equally**.  
@@ -24,7 +42,7 @@ We focus more on **key information** — and attention lets machines do the same
 | Cross-Attention| Target attends to source (e.g. translation) |
 
 🖼️ Visuals:  
-![Types of Attention](images/attention_mechanism_explained.png)  
+![Types of Attention](images/attention_mechanism_explained.png.png)  
 ![Soft vs Hard Attention](images/soft_vs_hard_attention.png)
 
 ---
