@@ -106,12 +106,11 @@ Class Weights	Most models	Easy & effective	May underperform on noisy data
 Undersampling	Large majority class	Fast	Risk of losing information
 
 🔁 Previous Post
-📌 Day 29 → Time Series Forecasting (ARIMA, LSTM)
+![📌 Day 29 → Time Series Forecasting (ARIMA, LSTM)](.//day29-time-series-forecasting)
 
-🎨 Visual Credits
-@imbalanced-learn, @Scikit-learn, @KDnuggets, @TowardsDataScience
 
 🙌 Thank You for Joining #DailyMLDose 🎉
-🔗 Follow Shadabur Rahaman
+🙌 Stay Connected
+- 🔗 [Follow Shadabur Rahaman on LinkedIn](https://www.linkedin.com/in/shadabur-rahaman-1b5703249)
 ⭐ Star the GitHub Repo
 Let’s keep fixing biases — in data and in life. 💡
