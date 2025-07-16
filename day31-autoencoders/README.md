@@ -144,12 +144,11 @@ day31-autoencoders/
 🎨 VAEs enable controlled data generation
 
 🔁 Previous Post
-https://img.shields.io/badge/%E2%86%90_Day_30-GANs-blue?style=flat-square
+![⚖️ Day 30 – Imbalanced Data Techniques (SMOTE, Class Weights) ](.//day30-imbalanced-data-techniques)
 
 🙌 Stay Connected
-https://img.shields.io/badge/LinkedIn-Follow-blue?logo=linkedin
-https://img.shields.io/github/stars/ShadabRahamann/DailyMLDose?style=social
-
+- 🔗 [Follow Shadabur Rahaman on LinkedIn](https://www.linkedin.com/in/shadabur-rahaman-1b5703249)
+⭐ Star the GitHub Repo
 "In the latent space, complexity finds its simplest truth."
 
 The Autoencoder's Credo
