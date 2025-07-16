@@ -148,9 +148,9 @@ day31-autoencoders/
 
 🙌 Stay Connected
 - 🔗 [Follow Shadabur Rahaman on LinkedIn](https://www.linkedin.com/in/shadabur-rahaman-1b5703249)
-⭐ Star the GitHub Repo
-"In the latent space, complexity finds its simplest truth."
+- ⭐ Star the GitHub Repo
+- "In the latent space, complexity finds its simplest truth."
 
-The Autoencoder's Credo
+- The Autoencoder's Credo
 
 ⭐ Star this repo to fuel our ML journey!
