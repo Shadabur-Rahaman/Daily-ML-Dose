@@ -11,7 +11,7 @@ day32-gans/
 │   └── gan_discriminator_vs_generator.py
 │
 ├── images/
-│   ├── gan_architecture.jpg
+│   ├── gan_architecture_dig.jpg
 │   ├── generator_vs_discriminator.png
 │   ├── fake_vs_real_samples.jpg
 │   ├── training_curve_gan.png
@@ -30,7 +30,7 @@ A **GAN** consists of two competing neural networks:
 Over time, both networks get better — the generator learns to **fool** the discriminator, while the discriminator learns to **spot** fakes.
 
 🖼️ Visuals:
-![GAN Architecture](images/gan_architecture.jpg)  
+![GAN Architecture](images/gan_architecture_dig.jpg)  
 ![Discriminator vs Generator](images/generator_vs_discriminator.png)
 
 ---
