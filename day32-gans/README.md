@@ -153,7 +153,7 @@ Challenges	Mode collapse, unstable gradients
 Generated visualizations via matplotlib
 
 🔁 Previous Post
-![🧠 Day 31 – Autoencoders: Learn to Compress & Reconstruct)](.//day31-autoencoders)
+![🧠 Day 31 – Autoencoders: Learn to Compress & Reconstruct)](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/edit/main/day31-autoencoders/)
 
 🙌 Stay Connected
 - 🔗 [Follow Shadabur Rahaman on LinkedIn](https://www.linkedin.com/in/shadabur-rahaman-1b5703249)
