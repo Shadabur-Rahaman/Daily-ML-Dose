@@ -152,8 +152,11 @@ Challenges	Mode collapse, unstable gradients
 
 Generated visualizations via matplotlib
 
-🔗 Stay Connected
-🔗 Follow Shadabur Rahaman
-⭐ Star this repo to support future drops
+🔁 Previous Post
+![🧠 Day 31 – Autoencoders: Learn to Compress & Reconstruct)](.//day31-autoencoders)
+
+🙌 Stay Connected
+- 🔗 [Follow Shadabur Rahaman on LinkedIn](https://www.linkedin.com/in/shadabur-rahaman-1b5703249)
+- ⭐ Star the GitHub Repo
 GANs can be tricky, but also revolutionary — let’s keep generating brilliance! 🚀
 
