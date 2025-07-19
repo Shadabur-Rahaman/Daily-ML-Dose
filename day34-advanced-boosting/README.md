@@ -127,10 +127,11 @@ Comparative Chart – All 4 Boosters
 ✅ Handles both bias and overfitting with regularization
 
 🔗 Previous Posts
+---
 ![🔁 Day 32 → GANs (Generator & Discriminator)](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/tree/main/day32-gans)
-
+---
 ![🔁 Day 33 → Variational Autoencoders (VAEs)](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/edit/main/day33-variational-autoencoders)
-
+---
 📎 Connect With Me
 🔗 LinkedIn – Shadabur Rahaman
 🙌 Stay Connected
