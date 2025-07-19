@@ -121,8 +121,9 @@ day33-variational-autoencoders/
 
 🔁 Previous Posts
 ![📦 Day 31 → Autoencoders](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/tree/main/day31-autoencoders)
-![🧠 Day 32 → GANs (Generator & Discriminator)](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/tree/main/day31-autoencoders)
-
+---
+![🧠 Day 32 → GANs (Generator & Discriminator)](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/tree/main/day32-gans)
+---
 🙌 Stay Connected
 - 🔗 [Follow Shadabur Rahaman on LinkedIn](https://www.linkedin.com/in/shadabur-rahaman-1b5703249)
 ⭐ Star the DailyMLDose GitHub Repo
