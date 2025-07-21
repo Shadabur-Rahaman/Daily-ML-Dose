@@ -1,29 +1,60 @@
 # 🧩 Day 36 – Ensemble Learning Techniques
 
-Welcome to **Day 36** of the #DailyMLDose challenge!
-
-Today, we dive deep into the fascinating world of **Ensemble Learning** — combining multiple models to build one superior predictive model.
-
----
-
-## 🔍 What is Ensemble Learning?
-
-Ensemble Learning involves using multiple learning algorithms to obtain better predictive performance than any individual model. The core idea is **wisdom of the crowd**.
+Welcome to **Day 36** of the #DailyMLDose challenge!  
+Today, we dive into **Ensemble Learning** — a technique where multiple models work together to deliver better performance than any single model alone. 💡
 
 ---
 
-## 📚 Key Techniques Covered
+## 📌 Topics Covered
 
-| Technique       | Core Idea                                      | Example Models         |
-|-----------------|------------------------------------------------|------------------------|
-| 🧺 **Bagging**    | Train models in parallel on bootstrapped data | Random Forest          |
-| 🚀 **Boosting**   | Sequentially train models to fix predecessors | XGBoost, AdaBoost      |
-| 🧠 **Stacking**   | Train base models & meta-model over outputs   | Any combo of models    |
-| ⚖️ **Voting**     | Combine model predictions via voting          | Hard / Soft Voting     |
-| 🔄 **Blending**   | Similar to stacking, but on a holdout set     | Gradient + CatBoost    |
+- 🤝 What is Ensemble Learning?
+- 🎲 Bagging (Bootstrap Aggregation)
+- 🔁 Boosting (AdaBoost, Gradient Boosting, XGBoost, CatBoost)
+- 🧱 Stacking
+- 🧪 Blending
+- ✅ Voting Classifiers (Hard vs Soft Voting)
 
 ---
 
+## 🧠 Key Concepts
+
+### 📦 Bagging
+- Trains multiple models on different bootstrap samples.
+- Reduces variance.
+- Common example: **Random Forest**
+
+> ![Bagging Example](assets/bagging.png)
+
+---
+
+### 📈 Boosting
+- Models are trained sequentially to focus on the errors of the previous ones.
+- Reduces bias and variance.
+- Popular: **AdaBoost**, **Gradient Boosting**, **XGBoost**, **CatBoost**
+
+> ![Boosting Process](assets/boosting.png)
+
+---
+
+### 🧱 Stacking
+- Combines predictions from different models using a **meta-model**.
+- Adds flexibility and improved generalization.
+
+> ![Stacking Architecture](assets/stacking.png)
+
+---
+
+### 🔀 Blending
+- Like stacking, but uses a **holdout validation set** rather than cross-validation.
+
+---
+
+### 🗳️ Voting
+- Combines multiple classifiers using majority (hard) or probability (soft) voting.
+
+> ![Voting Classifier](assets/voting_classifier.png)
+
+---
 ## 📁 Folder Structure
 
 ```css
