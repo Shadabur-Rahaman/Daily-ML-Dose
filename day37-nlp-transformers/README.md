@@ -15,11 +15,11 @@ day37-advanced-nlp/
 │ └── bert_embedding_example.py
 │
 ├── images/
-│ ├── transformer_architecture.png
+│ ├── transformer_architecture.jpp
 │ ├── attention_is_all_you_need.png
 │ ├── bert_visualization.png
 │ ├── zero_shot_diagram.png
-│ └── transfer_learning_nlp.png
+│ └── transfer_learning_nlp.jpg
 └── README.md
 ```
 
@@ -30,7 +30,7 @@ day37-advanced-nlp/
 Traditional NLP models like **RNNs** struggled with long dependencies.  
 The **Transformer architecture** (2017) solved this with **self-attention** and parallelization.
 
-![Transformer Architecture](images/transformer_architecture.png)  
+![Transformer Architecture](images/transformer_architecture.jpg)  
 ![Attention Paper](images/attention_is_all_you_need.png)
 
 ---
