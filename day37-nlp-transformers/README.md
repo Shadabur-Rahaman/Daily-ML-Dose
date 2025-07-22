@@ -102,7 +102,9 @@ Transformers	Universal NLP tasks	PyTorch, TensorFlow
 🙌 Let’s Connect!
 📎 Connect With Me
 - 🔗 [Follow Shadabur Rahaman on LinkedIn](https://www.linkedin.com/in/shadabur-rahaman-1b5703249)
+---
 ⭐ Star the GitHub Repo
+---
 🔁 Share this if it helped!
-
+---
 “Language is the bridge between humans and machines. And Transformers are the architects.”
