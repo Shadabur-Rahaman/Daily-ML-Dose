@@ -97,7 +97,7 @@ ZSL	Label new categories	facebook/bart-large-mnli
 Transformers	Universal NLP tasks	PyTorch, TensorFlow
 
 🔁 Previous Day
-![📌 Day 36 – Ensemble Learning Techniques (Bagging, Stacking, Blending)](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/blob/main/day34-advanced-boosting)
+![📌 Day 36 – Ensemble Learning Techniques (Bagging, Stacking, Blending)](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/tree/main/day36-ensemble-learning)
 
 🙌 Let’s Connect!
 📎 Connect With Me
