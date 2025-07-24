@@ -27,8 +27,10 @@ day38-deep-learning-cv/
 🧠 What is Deep Learning for CV?
 Deep Learning in CV primarily uses Convolutional Neural Networks (CNNs), designed to automatically extract spatial hierarchies of features from images.
 
-🔧 CNN Architecture
-A basic CNN includes:
+![🔧 CNN Architecture](images/cnn_architecture_diagram.png)
+A basic CNN includes: 
+---
+
 
 Convolution Layers: Extract spatial features using filters
 
@@ -39,8 +41,14 @@ Pooling Layers: Downsample feature maps
 Fully Connected Layers: Classify based on extracted features
 
 🖼️ Visuals:
-
-
+![Conv Pooling Layers](images/conv_pooling_layers.png)  
+---
+![Resnet Skip Connection](images/resnet_skip_connection.jpg)  
+---
+![Transfer Learning Flow](images/transfer_learning_flow.png)  
+---
+![ Fine tuning vs Feature extraction](images/fine_tuning_vs_feature_extraction.jpg)  
+---
 🔁 Transfer Learning
 Why train from scratch when we can leverage pre-trained models like ResNet, VGG, EfficientNet?
 
