@@ -27,11 +27,8 @@ day38-deep-learning-cv/
 🧠 What is Deep Learning for CV?
 Deep Learning in CV primarily uses Convolutional Neural Networks (CNNs), designed to automatically extract spatial hierarchies of features from images.
 
-![🔧 CNN Architecture](images/cnn_architecture_diagram.png)
+![🔧 CNN Architecture](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/tree/main/day38-deep-learning-cv/images/cnn_architecture_diagram.png)
 A basic CNN includes: 
----
-
-
 Convolution Layers: Extract spatial features using filters
 
 ReLU Activations: Introduce non-linearity
