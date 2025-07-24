@@ -118,10 +118,15 @@ Fine-Tuning	Unfreeze deeper layers + retrain
 EfficientNet/ResNet	Powerful, scalable CV architectures
 
 📌 Previous Post →
-Day 37 – Advanced NLP (Transformers & Zero-Shot Learning)
+![Day 37 – Advanced NLP (Transformers & Zero-Shot Learning)](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/edit/main/day37-nlp-transformers)
 
 🙌 Thank You for Following #DailyMLDose 🙌
 💬 Let’s keep learning, experimenting, and deploying smarter ML systems every day.
 
-🔗 Follow Shadabur Rahaman on LinkedIn
-⭐ Star the GitHub Repository
+🙌 Let’s Connect!
+📎 Connect With Me
+- 🔗 [Follow Shadabur Rahaman on LinkedIn](https://www.linkedin.com/in/shadabur-rahaman-1b5703249)
+---
+⭐ Star the GitHub Repo
+---
+🔁 Share this if it helped!
