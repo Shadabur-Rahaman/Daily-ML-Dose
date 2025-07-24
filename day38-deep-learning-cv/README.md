@@ -38,7 +38,9 @@ Pooling Layers: Downsample feature maps
 Fully Connected Layers: Classify based on extracted features
 
 🖼️ Visuals:
+---
 ![🔧 CNN Architecture](images/CNN_architecture_diagram.png)
+---
 ![Conv Pooling Layers](images/conv_pooling_layers.png)  
 ---
 ![Resnet Skip Connection](images/resnet_skip_connection.jpg)  
