@@ -19,9 +19,9 @@ day38-deep-learning-cv/
 ├── images/
 │   ├── cnn_architecture_diagram.png
 │   ├── conv_pooling_layers.png
-│   ├── resnet_skip_connection.png
+│   ├── resnet_skip_connection.jpg
 │   ├── transfer_learning_flow.png
-│   ├── fine_tuning_vs_feature_extraction.png
+│   ├── fine_tuning_vs_feature_extraction.jpg
 └── README.md
 ```
 🧠 What is Deep Learning for CV?
