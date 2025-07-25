@@ -57,15 +57,24 @@ In this session, we explore:
 
 ---
 
-## 💻 Code Demos
-
-📁 `day39-feature-engineering/`  
+## 📁 Folder Structure
 ```css
-├── feature_transformation.py
-├── encoding_strategies.py
-├── datetime_feature_extraction.py
-├── feature_selection_demo.py
-├── auto_feature_engineering.py
+day39-feature-engineering/
+├── code/
+│   ├── feature_transformation.py
+│   ├── encoding_strategies.py
+│   ├── datetime_feature_extraction.py
+│   ├── feature_selection_demo.py
+│   └── auto_feature_engineering.py
+│
+├── images/
+│   ├── feature_transformation.png
+│   ├── encoding_methods.png
+│   ├── datetime_features.png
+│   ├── interaction_terms.png
+│   └── feature_selection_methods.png
+└── README.md
+```
 File	Description
 feature_transformation.py	Scaling, log, power transform
 encoding_strategies.py	Label encoding, one-hot, ordinal
