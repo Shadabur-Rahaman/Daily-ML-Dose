@@ -1,105 +1,116 @@
 # 🧠 Day 40 – Attention Mechanisms  
-> Attention in NLP and Vision; Self-Attention and Transformers  
-📅 #DailyMLDose
+📅 #DailyMLDose | #Transformers | #DeepLearning
+
+> “Attention is all you need.” — The paper that changed AI forever
+
+Welcome to **Day 40** of the #DailyMLDose challenge!  
+Today, we explore the heart of modern Deep Learning models: **Attention** — the mechanism that powers GPT, BERT, Vision Transformers, and more.
 
 ---
 
-## 📌 Overview
+## 🔍 What You’ll Learn
 
-Attention mechanisms revolutionized how models learn long-range dependencies in data.  
-From neural machine translation to image captioning and transformers, attention helps models **focus** on the most relevant parts of input sequences.
+✅ What is Attention in Neural Networks  
+✅ **Soft vs Hard Attention**  
+✅ How **Self-Attention** works  
+✅ **Multi-Head Attention** in Transformers  
+✅ Use cases in NLP (BERT, GPT) and CV (ViT, DETR)
 
-In this session, we explore:
-- The intuition behind attention
-- Scaled Dot-Product & Multi-Head Attention
-- Self-attention in Transformers
-- Applications in NLP and Vision (ViT, BERT, GPT, etc.)
-
----
-
-## 🎯 Key Concepts
-
-| Concept                     | Description |
-|-----------------------------|-------------|
-| **Basic Attention**         | Assigning importance to input parts during prediction |
-| **Self-Attention**          | Attention applied within the same sequence |
-| **Multi-Head Attention**    | Captures information from multiple representation subspaces |
-| **Positional Encoding**     | Preserves token order in transformers |
-| **Transformers**            | Model architecture based solely on attention |
-| **Cross-Attention**         | Source-target attention in encoder-decoder models |
-| **Vision Transformers**     | Applies transformer architecture to image patches |
+![Attention Overview](images/attention_overview.png)
 
 ---
 
-## 🧠 Visual Explanations
+## 🧠 Key Concepts
 
-### 🎯 1. What is Attention?
-![Basic Attention](../assets/day40/basic_attention.png)
-
----
-
-### 🔁 2. Self-Attention Flow (as in Transformers)
-![Self Attention](../assets/day40/self_attention.png)
-
----
-
-### 🧠 3. Multi-Head Attention Structure
-![Multi-Head Attention](../assets/day40/multihead_attention.png)
+| Mechanism             | Description |
+|----------------------|-------------|
+| **Attention**         | Focuses on relevant parts of the input when making predictions |
+| **Self-Attention**    | Allows a model to relate different positions of a single sequence |
+| **Multi-Head Attention** | Learns from multiple representation subspaces jointly |
+| **Positional Encoding** | Adds order information in sequences |
+| **Transformers**      | Entirely based on self-attention mechanisms, no recurrence/convolution |
 
 ---
 
-### 🧬 4. Positional Encoding
-![Positional Encoding](../assets/day40/positional_encoding.png)
+## 📊 Visual Guide
+
+### 🎯 1. Self-Attention Explained  
+![Self-Attention](images/self_attention_diagram.png)
 
 ---
 
-### 🖼️ 5. Vision Transformer Patch Encoding
-![ViT Attention](../assets/day40/vision_transformer.png)
+### 🧩 2. Multi-Head Attention  
+![Multi-Head Attention](images/multihead_attention.png)
 
 ---
 
-## 📁 Folder Stucture
+### 📐 3. Attention in Transformers (Encoder-Decoder)  
+![Transformer Architecture](images/transformer_architecture.png)
+
+---
+
+## 📁 Folder Structure
+
 ```css
- `day40-attention-mechanisms/`  
-├── basic_attention_numpy.py
-├── self_attention_scratch.py
-├── multihead_attention_demo.py
-├── positional_encoding.py
-├── transformer_nlp_pipeline.py
-├── vit_image_classification.py
+📁 day40-attention-mechanisms/
+├── code/
+│   ├── basic_self_attention.py
+│   ├── multihead_attention_demo.py
+│   ├── positional_encoding_visual.py
+│   └── transformer_encoder_simulation.py
+│
+├── images/
+│   ├── attention_overview.png
+│   ├── self_attention_diagram.png
+│   ├── multihead_attention.png
+│   └── transformer_architecture.png
+└── README.md
 ```
-File	Description
-basic_attention_numpy.py	Simulates simple attention using NumPy
-self_attention_scratch.py	Raw self-attention implementation
-multihead_attention_demo.py	Multi-head in PyTorch
-positional_encoding.py	Sinusoidal + learnable PE
-transformer_nlp_pipeline.py	Text classification using transformers
-vit_image_classification.py	Image classification using Vision Transformer
-```
-🧪 Sample Snippet
+🧪 Code Highlights
+✅ Self-Attention (Scaled Dot-Product)
+
 ```python
+
 import torch
 import torch.nn.functional as F
 
-def scaled_dot_product_attention(Q, K, V, mask=None):
-    d_k = Q.size(-1)
-    scores = torch.matmul(Q, K.transpose(-2, -1)) / torch.sqrt(torch.tensor(d_k, dtype=torch.float32))
-    if mask is not None:
-        scores = scores.masked_fill(mask == 0, -1e9)
-    attn = F.softmax(scores, dim=-1)
-    return torch.matmul(attn, V), attn
+Q = torch.randn(1, 5, 64)  # Query
+K = torch.randn(1, 5, 64)  # Key
+V = torch.randn(1, 5, 64)  # Value
+
+scores = torch.matmul(Q, K.transpose(-2, -1)) / torch.sqrt(torch.tensor(64.0))
+weights = F.softmax(scores, dim=-1)
+output = torch.matmul(weights, V)
 ```
-🔗 Related Posts
-🔙 Day 37: Advanced NLP Applications
+✅ Positional Encoding Example
 
-🔜 Day 41: Transfer Learning in Vision (Coming Soon)
+```python
 
-🔍 References
-Vaswani et al. (2017) Attention is All You Need
+import numpy as np
 
-Annotated Transformer: http://nlp.seas.harvard.edu/2018/04/03/attention.html
+def positional_encoding(position, d_model):
+    angle_rads = np.arange(position)[:, np.newaxis] / np.power(10000, (2 * (np.arange(d_model)[np.newaxis, :]//2)) / np.float32(d_model))
+    pos_encoding = np.zeros(angle_rads.shape)
+    pos_encoding[:, 0::2] = np.sin(angle_rads[:, 0::2])
+    pos_encoding[:, 1::2] = np.cos(angle_rads[:, 1::2])
+    return pos_encoding
+```
+🔗 Previous Topics
+![📊 Day 39 – Advanced Feature Engineering](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/edit/main/day39-feature-engineering)
 
-Jay Alammar Visualizations: https://jalammar.github.io/illustrated-transformer/
 
-🔖 Hashtags
-#AttentionMechanism #Transformers #VisionTransformer #DeepLearning #NLP #DailyMLDose #100DaysOfML
+
+🔥 Summary
+Attention mechanisms have revolutionized the field of AI by allowing models to focus on the most relevant information.
+From language models to image transformers, this concept is now the foundation of modern deep learning.
+
+---
+
+🙌 Let’s Connect!
+📎 Connect With Me
+- 🔗 [Follow Shadabur Rahaman on LinkedIn](https://www.linkedin.com/in/shadabur-rahaman-1b5703249)
+---
+
+Learn how two networks compete to generate photorealistic outputs 🎨
+
+#️⃣ #MachineLearning #AttentionIsAllYouNeed #DeepLearning #Transformers #SelfAttention #VisionTransformer #NLP #DailyMLDose #100DaysOfML
