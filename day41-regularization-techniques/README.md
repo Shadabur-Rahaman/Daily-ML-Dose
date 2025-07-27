@@ -117,24 +117,23 @@ for epoch in range(100):
 └── README.md
 ```
 
+
+
+
+🔗 Related Posts
+![Day 40 – Attention Mechanisms](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/tree/main/day40-attention-mechanisms)
+---
+⭐ Star the GitHub Repo
+---
+🔁 Share this if it helped!
+
+🙌 Let’s Connect!
+📎 Connect With Me
+- 🔗 [Follow Shadabur Rahaman on LinkedIn](https://www.linkedin.com/in/shadabur-rahaman-1b5703249)
+---
 📚 References
 Deep Learning Book – Ian Goodfellow, Chapter 7
 
 CS231n Regularization
 
 PyTorch Docs: Dropout
-
-🔁 Navigation
-⬅️ 
-➡️ Day 42 – Coming Soon
-
-🔗 Related Posts
-![Day 40 – Attention Mechanisms](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/tree/main/day40-attention-mechanisms)
-
-🙌 Let’s Connect!
-📎 Connect With Me
-- 🔗 [Follow Shadabur Rahaman on LinkedIn](https://www.linkedin.com/in/shadabur-rahaman-1b5703249)
----
-⭐ Star the GitHub Repo
----
-🔁 Share this if it helped!
