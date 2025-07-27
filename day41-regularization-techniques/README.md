@@ -20,22 +20,22 @@ Today we cover:
 ## 🖼️ Visuals
 
 ### 1. L1 vs L2 Penalty Intuition  
-<img src="images/l1_vs_l2_penalty.png" width="600"/>
+<img src="images/l1_vs_l2.png.png" width="600"/>
 
 ---
 
 ### 2. Dropout: Random Neuron Deactivation  
-<img src="images/dropout_illustration.png" width="600"/>
+<img src="images/dropout_mechanism.png" width="600"/>
 
 ---
 
 ### 3. Training Curves: Early Stopping  
-<img src="images/early_stopping_curves.png" width="600"/>
+<img src="images/early_stopping_chart.png" width="600"/>
 
 ---
 
 ### 4. BatchNorm as Regularizer  
-<img src="images/batchnorm_regularization.png" width="600"/>
+<img src="images/regularization_overview.png" width="600"/>
 
 ---
 
