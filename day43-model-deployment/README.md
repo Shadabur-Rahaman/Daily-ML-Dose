@@ -136,11 +136,15 @@ def predict():
 └── README.md
 ```
 🔗 Related Posts
+![Day 40 – Attention Mechanisms](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/tree/main/day40-attention-mechanisms)
 
+![Day 41 – Regularization Techniques](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/tree/main/day40-attention-mechanisms)
+
+![🧠 Day 42 – Model Explainability & Interpretability ](https://github.com/Shadabur-Rahaman/Daily-ML-Dose/edit/main/day42-model-interpretability)
 
 ⭐ Star the GitHub Repo if you're enjoying the #DailyMLDose series
 🔁 Share to help fellow learners!
-📎 Follow me on LinkedIn
+🔗 [Follow Shadabur Rahaman on LinkedIn](https://www.linkedin.com/in/shadabur-rahaman-1b5703249)
 
 📚 References
 Google Cloud AI Platform
