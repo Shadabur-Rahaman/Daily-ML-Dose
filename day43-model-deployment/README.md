@@ -22,7 +22,7 @@ Today we explore:
 ## 🖼️ Visuals
 
 ### 1. End-to-End ML Deployment Pipeline  
-<img src="images/ml_deployment_pipeline.png" width="1000"/>
+<img src="images/ml_deployment_pipeline.png" width="100"/>
 
 ---
 
