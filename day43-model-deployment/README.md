@@ -22,7 +22,7 @@ Today we explore:
 ## 🖼️ Visuals
 
 ### 1. End-to-End ML Deployment Pipeline  
-<img src="[images/ml_deployment_pipeline.png](https://sdmntprwestus2.oaiusercontent.com/files/00000000-545c-61f8-b9a0-d25eb097ea80/raw?se=2025-07-29T19%3A07%3A18Z&sp=r&sv=2024-08-04&sr=b&scid=b256e3f3-3129-52b2-81fd-55397b475f13&skoid=b64a43d9-3512-45c2-98b4-dea55d094240&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-29T13%3A07%3A16Z&ske=2025-07-30T13%3A07%3A16Z&sks=b&skv=2024-08-04&sig=CGK3S2qazoMhuu0Z11olcJXMsFEE%2BPJ0MQ%2BgeU7KdrA%3D)" width="100" height="100%"/>
+<img src="[images/ml_deployment_pipeline.png](https://sdmntprwestus2.oaiusercontent.com/files/00000000-545c-61f8-b9a0-d25eb097ea80/raw?se=2025-07-29T19%3A07%3A18Z&sp=r&sv=2024-08-04&sr=b&scid=b256e3f3-3129-52b2-81fd-55397b475f13&skoid=b64a43d9-3512-45c2-98b4-dea55d094240&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-29T13%3A07%3A16Z&ske=2025-07-30T13%3A07%3A16Z&sks=b&skv=2024-08-04&sig=CGK3S2qazoMhuu0Z11olcJXMsFEE%2BPJ0MQ%2BgeU7KdrA%3D)" />
 
 ---
 
