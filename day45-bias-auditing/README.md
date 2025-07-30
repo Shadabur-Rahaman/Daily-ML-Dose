@@ -26,7 +26,7 @@ Today we dive into:
 ---
 
 ### 2. Metrics Visualization Dashboard  
-<img src="images/fairness_dashboard_sample.png" width="650"/>
+<img src="images/fairness_dashboard_sample.png"/>
 
 ---
 
