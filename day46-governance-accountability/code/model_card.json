@@ -1,0 +1,8 @@
+{
+  "model_details": {
+    "name": "Loan Default Classifier",
+    "version": "v2.1",
+    "intended_use": "Loan approval screening",
+    "ethical_considerations": "Avoid discriminatory bias"
+  }
+}
