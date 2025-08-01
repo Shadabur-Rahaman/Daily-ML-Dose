@@ -1,0 +1,10 @@
+name: Governance Audit
+
+on: [push]
+
+jobs:
+  check-governance:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Validate Model Metadata
+      run: python check_model_card.py
