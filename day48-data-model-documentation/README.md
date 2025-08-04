@@ -46,13 +46,13 @@ In the world of Responsible AI, **documentation is critical** for ensuring fairn
 ## 🧩 Visual Aids
 
 ### 📋 Model Card Dashboard  
-![Model Card Dashboard](images/model_card_dashboard.png)
+![Model Card Dashboard](images/model_card_dashboard1.png)
 
 ### 📄 Data Sheet Components  
-![Data Sheet](images/data_sheet_components.png)
+![Data Sheet](images/data_sheet_components1.png)
 
 ### 🧾 FactSheet Layout  
-![FactSheet Audit](images/factsheet_audit_layout.png)
+![FactSheet Audit](images/factsheet_audit_layout1.png)
 
 ### 🔁 Documentation Lifecycle  
 ![Lifecycle](images/documentation_lifecycle.png)
