@@ -33,7 +33,7 @@ In this session, we explore:
 ## 🧠 Visual Explanations
 
 ### 🗓️ 1. Retraining Pipeline Flow  
-![Retraining Pipeline](./day50-automated-retraining/images/retraining_pipeline.png)
+![Retraining Pipeline](../day50-automated-retraining/images/retraining_pipeline.png)
 
 ---
 
