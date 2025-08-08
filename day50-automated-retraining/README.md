@@ -33,22 +33,22 @@ In this session, we explore:
 ## 🧠 Visual Explanations
 
 ### 🗓️ 1. Retraining Pipeline Flow  
-![Retraining Pipeline](../assets/day50-automated-retraining/images/retraining_pipeline.png)
+![Retraining Pipeline](./day50-automated-retraining/images/retraining_pipeline.png)
 
 ---
 
 ### 🔔 2. Event-Triggered Retraining  
-![Event Trigger](../assets/day50-automated-retraining/images/event_trigger_retraining.png)
+![Event Trigger](../day50-automated-retraining/images/event_trigger_retraining.png)
 
 ---
 
 ### 📦 3. Model Registry & Versioning  
-![Model Registry](../assetsday50-automated-retraining/images/model_registry.png)
+![Model Registry](../day50-automated-retraining/images/model_registry.png)
 
 ---
 
 ### 🚀 4. CI/CD for ML Models  
-![ML CI/CD](../assets/day50-automated-retraining/images/ml_cicd.png)
+![ML CI/CD](../day50-automated-retraining/images/ml_cicd.png)
 
 ---
 
